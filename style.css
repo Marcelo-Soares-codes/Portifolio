@@ -439,7 +439,6 @@ header {
 
 .projetos li{
   display: flex;
-  justify-content: space-between;
   background-color: #202020;
   padding: 35px 0;
   border-top: #00EAFF solid 4px;
@@ -449,7 +448,7 @@ header {
 
 .text-projeto{
   width: 50%;
-  margin-right: 15%;
+  margin: 0 15% 0 10%;
 }
 
 .text-projeto p{
