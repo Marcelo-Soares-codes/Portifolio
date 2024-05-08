@@ -4,6 +4,10 @@ Este é o repositório do meu portfólio, desenvolvido utilizando React. Ele inc
 uma variedade de tecnologias e ferramentas para criar uma experiência de usuário
 moderna e envolvente.
 
+## Acesse o meu portfolio
+
+Acesse por [aqui]('https://marcelo-soares-codes.vercel.app/').
+
 ## Recursos Principais
 
 - **React**: Utilizamos o framework React para criar uma UI dinâmica e
