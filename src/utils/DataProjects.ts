@@ -32,6 +32,14 @@ export const DataProjects: ProjectType[] = [
     deploy: 'https://cinequiz.netlify.app/',
   },
   {
+    name: 'T.R.F.S.E',
+    src: './trfse-photo.png',
+    description:
+      'O sistema reconhece os rostos dos alunos e funcionários registrados na escola. Ao chegar à portaria, o sistema identifica a pessoa e libera a entrada apenas para aqueles autorizados, garantindo um ambiente seguro',
+    github: 'https://github.com/Marcelo-Soares-codes/Reconhecimento-facial',
+    deploy: 'https://github.com/Marcelo-Soares-codes/Reconhecimento-facial',
+  },
+  {
     name: 'Tesla News',
     src: './tesla-news-photo.png',
     description:

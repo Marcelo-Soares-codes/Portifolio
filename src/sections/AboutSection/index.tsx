@@ -20,7 +20,7 @@ export const AboutSection = () => {
         </div>
 
         <div className="w-3/5 mx-auto mt-10 md:mt-0 flex flex-col justify-center items-start">
-          <div className="text-sm md:text-base">
+          <div className="max-w-md text-sm md:text-base">
             <p>👨‍💻 Sou Marcelo Soares um desenvolvedor web fullstack.</p>
             <p className="my-4">
               🚀 Estudando e aprendendo novas tecnologias como React e sempre me

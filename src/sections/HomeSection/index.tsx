@@ -1,6 +1,23 @@
 import { Download } from 'lucide-react';
 
 export const HomeSection = () => {
+  const handleDownload = (
+    e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
+  ) => {
+    // Impede que o navegador siga o link
+    e.preventDefault();
+
+    // Cria um link de download temporário
+    const link = document.createElement('a');
+    link.href = './marcelo-soares-curriculo.pdf';
+    link.download = './marcelo-soares-curriculo.pdf';
+
+    // Simula um clique no link para iniciar o download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section
       id="home"
@@ -40,7 +57,10 @@ export const HomeSection = () => {
             </a>
           </div>
 
-          <button className="relative flex px-3 md:px-5 py-3 mt-7 sm:mt-10 rounded-md bg-primary-600 isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-primary-400 hover:text-zinc-950 before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700">
+          <button
+            onClick={handleDownload}
+            className="relative flex px-3 md:px-5 py-3 mt-7 sm:mt-10 rounded-md bg-primary-600 isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-primary-400 hover:text-zinc-950 before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700"
+          >
             <Download className="mr-2" /> Download CV
           </button>
         </div>
