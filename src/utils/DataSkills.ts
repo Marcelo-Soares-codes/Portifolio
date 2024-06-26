@@ -54,6 +54,12 @@ export const Skills: SkillsType = {
       description:
         'O Tailwind CSS é uma estrutura de estilo utilitário para o desenvolvimento de interfaces web. Ao contrário das abordagens tradicionais de CSS, o Tailwind permite a criação rápida e consistente de estilos por meio de classes utilitárias pré-definidas, facilitando a construção de designs flexíveis e responsivos de maneira eficiente.',
     },
+    {
+      src: './skills-logo/chakraui.svg',
+      name: 'Chakra UI',
+      description:
+        'Chakra UI é uma biblioteca de componentes para React que facilita a criação de interfaces acessíveis e responsivas. Oferece uma coleção de componentes estilizados e personalizáveis, promovendo boas práticas de design e desenvolvimento.',
+    },
   ],
   back: [
     {

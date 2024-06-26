@@ -1,4 +1,6 @@
+import { TimeLine } from '../../components/TimeLine';
 import { Title } from '../../components/Title';
+import { DataTimeLine } from '../../utils/DataTimeLine';
 
 export const AboutSection = () => {
   return (
@@ -33,6 +35,7 @@ export const AboutSection = () => {
           </div>
         </div>
       </div>
+      {/* <TimeLine data={DataTimeLine} /> */}
     </section>
   );
 };
