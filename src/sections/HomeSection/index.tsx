@@ -1,3 +1,4 @@
+import React from 'react';
 import { Download } from 'lucide-react';
 
 export const HomeSection = () => {
@@ -40,7 +41,7 @@ export const HomeSection = () => {
             </span>
           </h2>
           <div className="flex my-5">
-            <a href="https://github.com/marcelo-Soares-codes/" target="_blank">
+            <a href="https://github.com/marcelo-Soares-codes/" target="_blank" rel="noreferrer">
               <img
                 src="./github.svg"
                 className="w-7 mr-5 cursor-pointer transition-transform hover:scale-125"
@@ -48,7 +49,7 @@ export const HomeSection = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/marcelo-soares-codes/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src="./linkedin.svg"
