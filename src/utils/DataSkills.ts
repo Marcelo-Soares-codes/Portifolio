@@ -43,16 +43,16 @@ export const Skills: SkillsType = {
         'O Storybook é uma ferramenta de desenvolvimento para criar, testar e documentar componentes de interface de usuário de forma isolada. Permite visualizar e interagir com os componentes em vários estados, simplificando o processo de desenvolvimento e documentação de maneira eficiente.',
     },
     {
-      src: './skills-logo/styled-components.svg',
-      name: 'Styled Components',
-      description:
-        'Styled Components é uma biblioteca para React e React Native que permite escrever estilos CSS diretamente nos componentes JavaScript, usando uma sintaxe de template literal. Isso promove o desenvolvimento de aplicações mais organizadas, escaláveis e fáceis de manter, encapsulando estilos junto com a lógica dos componentes.',
-    },
-    {
       src: './skills-logo/tailwind.svg',
       name: 'Tailwind',
       description:
         'O Tailwind CSS é uma estrutura de estilo utilitário para o desenvolvimento de interfaces web. Ao contrário das abordagens tradicionais de CSS, o Tailwind permite a criação rápida e consistente de estilos por meio de classes utilitárias pré-definidas, facilitando a construção de designs flexíveis e responsivos de maneira eficiente.',
+    },
+    {
+      src: './skills-logo/heroui.svg',
+      name: 'HeroUI',
+      description:
+        'HeroUI é uma biblioteca moderna de componentes React, anteriormente conhecida como NextUI. Construída sobre Tailwind CSS e React Aria, ela oferece componentes acessíveis, personalizáveis e com design elegante. Ideal para desenvolver interfaces responsivas e consistentes de forma rápida e eficiente.',
     },
     {
       src: './skills-logo/chakraui.svg',
@@ -99,6 +99,12 @@ export const Skills: SkillsType = {
         'Docker é uma plataforma de virtualização de contêineres que simplifica a implantação de aplicativos. Oferece ambientes isolados, garantindo consistência na execução de software em diferentes plataformas. Amplamente usado no desenvolvimento moderno devido à sua portabilidade e eficiência.',
     },
     {
+      src: './skills-logo/google-cloud-platform.svg',
+      name: 'Google Cloud Platform',
+      description:
+        'O Google Cloud Platform é um conjunto de serviços de computação em nuvem do Google, permitindo criar, implantar e escalar aplicativos, sites e serviços na infraestrutura do Google. Oferece soluções para computação, armazenamento, bancos de dados, aprendizado de máquina e muito mais, com foco em desempenho, segurança e escalabilidade.',
+    },
+    {
       src: './skills-logo/scraper.svg',
       name: 'Web Scraping',
       description:
@@ -117,6 +123,18 @@ export const Skills: SkillsType = {
       name: 'Princípios SOLID',
       description:
         'Os princípios SOLID são um conjunto de diretrizes para escrever software mais flexível, escalável e fácil de manter. Eles incluem: Single Responsibility (SRP), Open/Closed (OCP), Liskov Substitution (LSP), Interface Segregation (ISP) e Dependency Inversion (DIP). Juntos, promovem código modular, de baixo acoplamento e alta coesão.',
+    },
+    {
+      src: './skills-logo/api.svg',
+      name: 'APIs RESTful',
+      description:
+        'APIs RESTful seguem princípios de arquitetura REST, permitindo a comunicação entre sistemas por meio de requisições HTTP padronizadas. Facilitam a integração entre serviços, o consumo de dados e o desenvolvimento de aplicações escaláveis e desacopladas.',
+    },
+    {
+      src: './skills-logo/clean-code.svg',
+      name: 'Clean Code',
+      description:
+        'Clean Code é um conjunto de boas práticas para escrever código legível, compreensível e fácil de manter. Promove nomes claros, funções pequenas, responsabilidades bem definidas e simplicidade no design, resultando em maior produtividade e qualidade de software.',
     },
   ],
 };
