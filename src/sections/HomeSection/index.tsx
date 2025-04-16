@@ -1,6 +1,8 @@
 import React from 'react';
 import { Download } from 'lucide-react';
 
+import { AnimatedTyping } from '../../components/AnimatedTyping';
+
 export const HomeSection = () => {
   const handleDownload = (
     e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
@@ -25,7 +27,11 @@ export const HomeSection = () => {
       className="md:min-h-96 bg-zinc-950 flex flex-col sm:flex-row pb-16"
     >
       <div className="w-full sm:w-1/2 mt-10 flex justify-center items-center sm:order-2 ">
-        <img src="./photo-03.png" className=" w-4/5 md:w-3/4" />
+        <img
+          src="./photo-hero.png"
+          loading="eager"
+          className="w-4/5 md:w-3/4"
+        />
       </div>
 
       <div className="sm:w-1/2 flex justify-center items-center mt-10 ml-5 text-white font-montserrat sm:order-1">
@@ -35,13 +41,20 @@ export const HomeSection = () => {
             Marcelo Soares
           </h1>
           <h2 className="text-xl sm:text-2xl md:text-3xl mt-3 sm:mt-7">
-            Web developer{' '}
-            <span className="text-primary-500 text-2xl sm:text-3xl md:text-4xl">
-              fullstack
-            </span>
+            <AnimatedTyping
+              text="Web developer fullstack"
+              highlight="fullstack"
+              className="text-white text-xl sm:text-2xl md:text-3xl"
+              highlightClassName="text-primary-500 text-2xl sm:text-3xl md:text-4xl"
+            />
           </h2>
+
           <div className="flex my-5">
-            <a href="https://github.com/marcelo-Soares-codes/" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/marcelo-Soares-codes/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="./github.svg"
                 className="w-7 mr-5 cursor-pointer transition-transform hover:scale-125"
@@ -49,7 +62,8 @@ export const HomeSection = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/marcelo-soares-codes/"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="./linkedin.svg"
