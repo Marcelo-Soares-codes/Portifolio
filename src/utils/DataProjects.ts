@@ -2,11 +2,27 @@ type ProjectType = {
   name: string;
   src: string;
   description: string;
-  github: string;
+  github: string | null;
   deploy?: string;
 };
 
 export const DataProjects: ProjectType[] = [
+  {
+    name: 'BID',
+    src: './bid.png',
+    description:
+      'O BID é uma plataforma que conecta clientes a prestadores de serviço com foco em segurança e praticidade. O sistema protege ambos os lados ao reter o pagamento até a conclusão do serviço. Caso não seja resolvido, o valor é reembolsado. Possui integração com o Google Geocoding para filtrar serviços por localização. Desenvolvido com React, Express e PostgreSQL, e documentado via Swagger.',
+    github: null,
+    deploy: 'https://bid-io.vercel.app/',
+  },
+  {
+    name: 'XMentor',
+    src: './xmentor.png',
+    description:
+      'O XMentor é uma plataforma de gestão de mentorias que facilita a rotina de mentores e suas equipes. Permite cadastrar auxiliares e mentorados, organizar eventos, reuniões, atividades, anotações e controlar o financeiro. Também possibilita criar trilhas de mentoria e integra-se ao Google Meet e Google Calendar, salvando reuniões automaticamente na agenda dos usuários.',
+    github: null,
+    deploy: 'https://bid-io.vercel.app/',
+  },
   {
     name: 'Meu Momento',
     src: './meu-momento-photo.png',
